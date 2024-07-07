@@ -1,0 +1,38 @@
+body,
+body * {
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 2rem;
+}
+
+header {
+  margin-bottom: 2rem;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  font-size: 1rem;
+}
+
+nav .link {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  margin: 2rem 0;
+  font-size: 1.3rem;
+}
+
+td {
+  padding: 1rem 2rem;
+  border: 0.1rem solid #ccc;
+}
